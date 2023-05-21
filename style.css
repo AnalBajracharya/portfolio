@@ -33,13 +33,22 @@ html {
   justify-content: center;
   align-items: center;
   margin-right: 10px;
+
+}
+
+.header__side__buttons a{
+    text-decoration: none;
+    
 }
 
 .header__about,
 .header__contact {
   margin: 0px 15px;
   cursor: pointer;
+  color: black;
 }
+
+
 
 .header__download {
   margin: 0px 15px;
@@ -80,18 +89,16 @@ html {
   align-items: center;
   transition: transform 0.2s;
   box-shadow: 1px 2px 17px 9px rgba(130, 125, 125, 0.76);
-
   margin-right: 100px;
 }
 
-.hero__picture__container:hover {
-  transform: scale(1.15);
-}
+
 
 .hero__picture {
-  width: 380px;
-  height: 380px;
-  border-radius: 190px;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
 }
 
 /* about section */
@@ -228,9 +235,13 @@ html {
   align-items: center;
 }
 
+.social__container a{
+  text-decoration: none;
+}
+
 .footer__icon {
   width: 30px;
   height: 30px;
-  margin-left: 7px;
+  margin-left: 20px;
   cursor: pointer;
 }
